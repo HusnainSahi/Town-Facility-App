@@ -77,7 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Create a new Account!"
+            android:text="Register Here"
             android:textColor="@color/design_default_color_primary_dark"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -88,7 +88,7 @@
 
             android:layout_marginTop="50dp"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:background="@color/design_default_color_primary_dark"
             />
         <TextView
