@@ -1,9 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".wellcome">
+    android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <View
+
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/design_default_color_primary_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/white"
+            android:text="Welcome"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="40sp"
+            android:textStyle="bold"
+
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/if_you_are_registered_click_login"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/otherwise_click_sign_up"
+            android:textSize="20sp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/design_default_color_primary_dark"
+            android:text="login"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/design_default_color_primary_dark"
+            android:text="Sign Up"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+
+            tools:ignore="HardcodedText" />
+
+
+
+        <TextView
+            android:id="@+id/newaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/facilitate_your_self"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+        <View
+
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/design_default_color_primary_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_rights_are_reserved"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

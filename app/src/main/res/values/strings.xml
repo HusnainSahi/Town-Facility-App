@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">townfacilityapp</string>
+    <string name="if_you_are_registered_click_login">If you are Registered Click Login</string>
+    <string name="otherwise_click_sign_up">OtherWise Click Sign Up!</string>
+    <string name="all_rights_are_reserved">All rights are Reserved</string>
+    <string name="register_here">Register Here</string>
+    <string name="facilitate_your_self">Facilitate Your Self</string>
+    <string name="todo">TODO</string>
 </resources>

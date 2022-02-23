@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Husnain Sahi/AndroidStudioProjects/townfacilityapp2/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Husnain Sahi/AndroidStudioProjects/townfacilityapp2/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Husnain Sahi/AndroidStudioProjects/townfacilityapp2/app/src/main/res/layout/activity_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Husnain Sahi/AndroidStudioProjects/townfacilityapp2/app/src/main/res/layout/activity_wellcome.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
